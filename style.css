@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(255, 0, 0);
+    height: 170px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgb(195, 110, 110);
+    position: relative;
+}
+
+nav ul {
+    float: left;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+nav li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30%;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background: rgba(221, 216, 216, 0.804);
+    transition: .5s;
+}
+
+nav img {
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 970px;
+    transform: translate(0%, -50%);
+    margin-left: 60px;
+    margin-bottom: 400px;
+}
+
+body .foto {
+    margin: 50px auto;
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+nav ul li .aktiv {
+    display: inline;
+    font-size: 33px;
+    position: relative;
+    top: 18px;
+    height: 45px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.armin {
+    color: #3f729b;
+    font-size: 70px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.armin:hover {
+    color: #833AB4;
+    transition: coler 0.02;
+}
+
+#mian {
+    max-width: 1200px;
+    margin: auto;
+    font-size: large;
+}
+
+#canbi {
+    padding: 50px;
+}
+
+#Teami {
+    padding: 50px;
+}
+
+#Leistungi {
+    padding: 50px;
+}
+
+#Projektei {
+    padding: 50px;
+}
+
+#Referenzeni {
+    padding: 50px;
+}
+
+#Kontaktei {
+    padding: 50px;
+}
